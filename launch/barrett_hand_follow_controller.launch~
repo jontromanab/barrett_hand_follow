@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-
-	<!-- Please make sure the Barrett hand is running in Gazebo and the all the joints are publishing the joint states before running the node. Otherwise the node will not find the desired publishers -->
-
-	<node name="bhand_controller" pkg="barrett_hand_follow" type="barrett_hand_follow.py" />
-
-
-</launch>
