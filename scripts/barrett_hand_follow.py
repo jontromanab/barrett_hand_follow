@@ -33,7 +33,7 @@ class BarrettHandTrajectoryFollower:
 
     def actionCb(self, goal):
         
-        rospy.loginfo('Gripper controller action goal recieved  with %d waypoints '  %len(goal.trajectory.points)) 
+        rospy.loginfo('Gripper controller action goal received  with %d waypoints '  %len(goal.trajectory.points)) 
         rospy.loginfo('The spread joints are fixed'  ) 
         
 	msg = JointState()
